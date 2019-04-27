@@ -1,2 +1,3 @@
-# guide-raven-os-org
-Hosting of guides for Raven-OS
+# guides-raven-os-org
+
+Guides hosting for Raven-OS
