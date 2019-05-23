@@ -30,36 +30,35 @@
       </div>
     </header>
     <!-- #header -->
-
     <div class="content">
       <div class="container-fluid">
         <div class="row flex-xl-nowrap">
           <!-- Left Sidebar -->
           <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-            <a href=javascript:getMarkdownContent("https://raw.githubusercontent.com/raven-os/nest/master/README.md")
-              title="nest">Getting Started Nest</a>
-            <br>
-            <a href=javascript:getMarkdownContent("https://raw.githubusercontent.com/raven-os/nbuild/master/README.md")
-              title="nbuild">Getting Started Nest Build</a>
-          </div>
-          <!-- Right sidebar -->
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            <ul class="section-nav">
-              <li class="toc-entry toc-h2">
-                First link
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href=javascript:getMarkdownContent("getting-started/README.md")
+                  title="README">Basic README</a>
               </li>
-              <li class="toc-entry toc-h2">
-                Second link
+              <li class="nav-item">
+                <a href=javascript:getMarkdownContent("getting-started/nest/00.Foreword.md")
+                  title="foreword">Foreword</a> 
+              </li>
+              <li class="nav-item">
+                <a href=javascript:getMarkdownContent("getting-started/nest/01.Plan.md")
+                  title="plan">Plan</a> 
               </li>
             </ul>
           </div>
+          <!-- Right sidebar -->
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            <div id="right"></div>
+          </div>
           <!-- Main content -->
           <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
-
             <div id="root"></div>
           </main>
         </div>
-      </div>
     </div>
 
     <!--==========================
