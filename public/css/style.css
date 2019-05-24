@@ -69,12 +69,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.app-footer {
-  background-color: var(--primary-dark);
-  font-size: 12px;
-  text-align: center;
-}
-
 .nav-item {
   color: var(--white) !important;
 }
@@ -117,21 +111,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* -----------------------------------
-  Content
+  Sidebar left
 ----------------------------------- */
 
 .bd-sidebar {
   position: -webkit-sticky;
   position: sticky;
   top: 4rem;
-  z-index: 1000;
+  /* z-index: 1000; */
   height: calc(100vh - 4rem);
   border-right: 1px solid rgba(0,0,0,.1);
   -webkit-box-ordinal-group: 1;
   -ms-flex-order: 0;
   order: 0;
   border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
+
+/* -----------------------------------
+  Sidebar right
+----------------------------------- */
 
 .bd-toc {
   position: -webkit-sticky;
@@ -147,7 +147,26 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1.5rem;
   font-size: .875rem;
 }
+
 .section-nav {
   padding-left: 0;
   border-left: 1px solid #eee;
+}
+
+/* -----------------------------------
+  Content
+----------------------------------- */
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bd-content {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
 }
