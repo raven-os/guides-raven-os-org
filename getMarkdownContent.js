@@ -5,7 +5,7 @@ app.appendChild(container);
 
 const right = document.getElementById('right');
 const containerRight = document.createElement('div');
-containerRight.setAttribute('class', 'container');
+containerRight.setAttribute('class', 'bd-toc-anchors');
 right.appendChild(containerRight);
 
 
