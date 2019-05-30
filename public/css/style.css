@@ -15,7 +15,7 @@
 body {
   background: var(--primary);
   color: var(--primary-dark);
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -42,8 +42,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
-  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   margin: 0 0 20px 0;
   padding: 0;
   color: var(--primary-dark);
@@ -120,11 +120,11 @@ h1, h2, h3, h4, h5, h6 {
   top: 4rem;
   /* z-index: 1000; */
   height: calc(100vh - 4rem);
-  border-right: 1px solid rgba(0,0,0,.1);
+  border-right: 1px solid rgba(0, 0, 0, .1);
   -webkit-box-ordinal-group: 1;
   -ms-flex-order: 0;
   order: 0;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
   padding-top: 1.5rem;
   padding-bottom: 3rem;
   overflow-y: auto;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 .bd-toc {
   position: -webkit-sticky;
   position: sticky;
-  border-left: 1px solid rgba(0,0,0,.1);
+  border-left: 1px solid rgba(0, 0, 0, .1);
   top: 4rem;
   height: calc(100vh - 4rem);
   overflow-y: auto;
