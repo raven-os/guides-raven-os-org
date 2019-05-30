@@ -189,3 +189,16 @@ tr {
 td {
   padding: 5px;
 }
+
+pre code {
+  overflow-x: auto;
+  overflow-wrap: normal;
+  color: inherit;
+  padding: 3px 7px;
+  font-size: 90%;
+  color: var(--primary-dark) !important;
+  background-color: var(--mid-grey);
+  border-radius: 2px;
+  width: auto;
+  display: block;
+}
