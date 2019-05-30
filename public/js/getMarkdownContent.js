@@ -11,7 +11,7 @@ right.appendChild(containerRight);
 
 getMarkdownContent();
 
-function getMarkdownContent(url = "getting-started/README.md") {
+function getMarkdownContent(url = "https://raw.githubusercontent.com/raven-os/getting-started/master/README.md") {
     var request = new XMLHttpRequest();
     request.open('GET', url, true);
     request.onload = function () {
